@@ -30,12 +30,12 @@ Github code is available here: (Please ask me the authorization to see the code!
 
 ### Use Case 2 : Batch Ingestion
 
-Event-based Ingestion works really well but for some of our treatments, we wanted to do them batch mode. In other terms, instead of treation one file at a time,
-we wanted to use services that will allow to group multiple source files and treating them together. That's why, I developed this solution. It consists of connecting
-the source Google Cloud Storage to Pub/Sub by creating notifications in Pub/Sub whenever a new file is uploaded. And, use Cloud Scheduler as a cron scheduler to launch 
+Event-based Ingestion works really well but for some of our treatments, we wanted to do them in batch mode. In other terms, instead of treating one file at a time,
+we wanted to use services that will allow to group multiple source files and treat them together. The solution, I developed, consists of connecting Google Cloud 
+Storage to Pub/Sub by creating notifications in Pub/Sub whenever a new file is uploaded. And, use Cloud Scheduler as a cron scheduler to launch 
 a Cloud Function that will consume the messages (source files) in Pub/Sub regularly.
 
-
+Github code is available here: (Please ask me the authorization to see the code!)
 
 ## AWS Data Transformations
 
