@@ -1,9 +1,11 @@
 # Portfolio
+
 ### Sr. Data Engineer | Python, Scala, SQL, Spark | GCP, AWS 
 
 Hi ! Welcome to my portfolio!
 Here I will describe some of my work as a Data Engineer.
 Feel free to reach me out :) 
+
 
 ## GCP Data Ingestion
 
@@ -32,6 +34,7 @@ Event-based Ingestion works really well but for some of our treatments, we wante
 we wanted to use services that will allow to group multiple source files and treating them together. That's why, I developed this solution. It consists of connecting
 the source Google Cloud Storage to Pub/Sub by creating notifications in Pub/Sub whenever a new file is uploaded. And, use Cloud Scheduler as a cron scheduler to launch 
 a Cloud Function that will consume the messages (source files) in Pub/Sub regularly.
+
 
 
 ## AWS Data Transformations
