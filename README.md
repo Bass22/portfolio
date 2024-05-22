@@ -7,7 +7,7 @@ Feel free to reach me out :)
 
 ## GCP Data Ingestion
 
-Goal of the project was to ingest multiple source data files coming from a Google Cloud Storage bucket using this kind of referential routing :
+Goal of the project was to ingest multiple source data files coming from a Google Cloud Storage bucket using this kind of routing referential:
 |source_project|source_bucket|source_file_mask|destination_project|destination_bucket|destination_directory|
 |----|-----|-------|----|-----|-------|
 |source_bucket|raw_data|finance.*.csv|finance|raw_data||
