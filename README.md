@@ -2,7 +2,7 @@
 ### Sr. Data Engineer | Python, Scala, SQL, Spark | GCP, AWS 
 
 Hi ! Welcome to my portfolio!
-Here I will describe some of my work and experiences.
+Here I will describe some of my work as a Data Engineer.
 Feel free to reach me out :) 
 
 ## GCP Data Ingestion
