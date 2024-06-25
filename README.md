@@ -26,7 +26,8 @@ The architecture of the event-based solution is :
 
 I created a Cloud Function which is triggered by the upload of new file in Google Cloud Storage. When triggered, the Cloud function uses the routing 
 referential in order to route files to their destination.
-Github code is available here: [(https://github.com/Bass22/data-acquisition-cloud-function/tree/feature/cloud_function_event_based)](https://github.com/Bass22/data-acquisition-cloud-function/tree/feature/cloud_function_event_based)
+Github code is available here: [Routing Cloud Function (Event-Based)
+](https://github.com/Bass22/data-acquisition-cloud-function/tree/feature/cloud_function_event_based)
 
 ### Use Case 2 : Batch Ingestion
 
@@ -34,14 +35,11 @@ Event-based Ingestion works really well but for some of our treatments, we wante
 we wanted to use services that will allow to group multiple source files and treat them together. The solution, I developed, consists of connecting Google Cloud 
 Storage to Pub/Sub by creating notifications in Pub/Sub whenever a new file is uploaded. And, use Cloud Scheduler as a cron scheduler to launch 
 a Cloud Function that will consume the messages (source files) in Pub/Sub regularly.
-
-Github code is available here: [routing-pubsub-cloud-function](https://github.com/Bass22/data-acquisition-cloud-function)
+[Routing Cloud Function with Pub/Sub](https://github.com/Bass22/data-acquisition-cloud-function)
 
 ## Analytics Engineering with DBT
 
-I worked on this migration project from legacy SQL to DBT
-
-[legacy-sql-to-dbt](https://github.com/Bass22/dbt-path-to-certification)
+I worked on this migration project from legacy SQL to DBT [Legacy SQL to DBT](https://github.com/Bass22/dbt-path-to-certification)
 
 ## AWS Data Transformations
 
@@ -49,3 +47,5 @@ This one is the general architecture of one of the project that I was in for mor
 
 FIrst use case, when I just arrived on the project was to migrate from on-premise (Fujitsu servers) to AWS all our data pipelines. 
 This reduced significantly the cost of the project and it lasted about 6 months.
+
+![image](https://github.com/Bass22/portfolio/assets/29351163/208e7ff4-f0a5-47ad-b2b3-28a60ba3a65e)
