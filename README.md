@@ -48,4 +48,5 @@ This one is the general architecture of one of the project that I was in for mor
 FIrst use case, when I just arrived on the project was to migrate from on-premise (Fujitsu servers) to AWS all our data pipelines. 
 This reduced significantly the cost of the project and it lasted about 6 months.
 
-![image](https://github.com/Bass22/portfolio/assets/29351163/e1540876-2e72-4838-9ad2-6bda901ced71)
+<img width="1220" alt="Screenshot 2024-06-25 at 11 36 23" src="https://github.com/Bass22/portfolio/assets/29351163/aa73af5a-7984-4d5e-adbd-e4a3b4f0747c">
+
