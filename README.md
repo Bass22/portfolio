@@ -40,8 +40,8 @@ Github project link: [Routing Cloud Function with Pub/Sub](https://github.com/Ba
 
 ## Analytics Engineering with DBT
 
+I worked on this migration project from legacy SQL to DBT: [Legacy SQL to DBT](https://github.com/Bass22/dbt-path-to-certification).  
 ![download](https://github.com/Bass22/portfolio/assets/29351163/c7765aab-93e4-4948-aba2-6dbb38482aae)
-I worked on this migration project from legacy SQL to DBT: [Legacy SQL to DBT](https://github.com/Bass22/dbt-path-to-certification)
 
 ## AWS Data Transformations  
 
