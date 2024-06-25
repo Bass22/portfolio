@@ -5,7 +5,7 @@
 Hi ! Welcome to my portfolio!
 Here I will describe some of my work as a Data Engineer.
 Feel free to reach me out :)  
-
+<br />
 
 ## GCP Data Acquisition
 
@@ -38,11 +38,15 @@ Storage to Pub/Sub by creating notifications in Pub/Sub whenever a new file is u
 a Cloud Function that will consume the messages (source files) in Pub/Sub regularly.
 Github project link: [Routing Cloud Function with Pub/Sub](https://github.com/Bass22/data-acquisition-cloud-function)  
 
+<br />
+<br />
 ## Analytics Engineering with DBT
 
 I worked on this migration project from legacy SQL to DBT: [Legacy SQL to DBT](https://github.com/Bass22/dbt-path-to-certification).  
 ![download](https://github.com/Bass22/portfolio/assets/29351163/c7765aab-93e4-4948-aba2-6dbb38482aae)
 
+<br />
+<br />
 ## AWS Data Transformations  
 
 This one is the general architecture of one of the project that I was in for more than 3.5 years. The general purpose was to develop data pipelines for luxury brands using Spark Scala, Python, AWS (Lambda, Athena, S3, EMR, EC2), Spark Streaming, Kafka, Airflow, ETL (Nifi), Cassandra, Solr, Github (Github Action).
