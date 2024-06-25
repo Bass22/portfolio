@@ -35,11 +35,11 @@ Event-based Ingestion works really well but for some of our treatments, we wante
 we wanted to use services that will allow to group multiple source files and treat them together. The solution, I developed, consists of connecting Google Cloud 
 Storage to Pub/Sub by creating notifications in Pub/Sub whenever a new file is uploaded. And, use Cloud Scheduler as a cron scheduler to launch 
 a Cloud Function that will consume the messages (source files) in Pub/Sub regularly.
-[Routing Cloud Function with Pub/Sub](https://github.com/Bass22/data-acquisition-cloud-function)
+Github project link: [Routing Cloud Function with Pub/Sub](https://github.com/Bass22/data-acquisition-cloud-function)
 
 ## Analytics Engineering with DBT
 
-I worked on this migration project from legacy SQL to DBT [Legacy SQL to DBT](https://github.com/Bass22/dbt-path-to-certification)
+I worked on this migration project from legacy SQL to DBT: [Legacy SQL to DBT](https://github.com/Bass22/dbt-path-to-certification)
 
 ## AWS Data Transformations
 
@@ -48,4 +48,4 @@ This one is the general architecture of one of the project that I was in for mor
 FIrst use case, when I just arrived on the project was to migrate from on-premise (Fujitsu servers) to AWS all our data pipelines. 
 This reduced significantly the cost of the project and it lasted about 6 months.
 
-![image](https://github.com/Bass22/portfolio/assets/29351163/208e7ff4-f0a5-47ad-b2b3-28a60ba3a65e)
+![image](https://github.com/Bass22/portfolio/assets/29351163/e1540876-2e72-4838-9ad2-6bda901ced71)
