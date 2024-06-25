@@ -26,7 +26,7 @@ The architecture of the event-based solution is :
 
 I created a Cloud Function which is triggered by the upload of new file in Google Cloud Storage. When triggered, the Cloud function uses the routing 
 referential in order to route files to their destination.
-Github code is available here: (Please ask me the authorization to see the code!)
+Github code is available here: [(https://github.com/Bass22/data-acquisition-cloud-function/tree/feature/cloud_function_event_based)](https://github.com/Bass22/data-acquisition-cloud-function/tree/feature/cloud_function_event_based)
 
 ### Use Case 2 : Batch Ingestion
 
@@ -35,8 +35,17 @@ we wanted to use services that will allow to group multiple source files and tre
 Storage to Pub/Sub by creating notifications in Pub/Sub whenever a new file is uploaded. And, use Cloud Scheduler as a cron scheduler to launch 
 a Cloud Function that will consume the messages (source files) in Pub/Sub regularly.
 
-Github code is available here: (Please ask me the authorization to see the code!)
+Github code is available here: [routing-pubsub-cloud-function](https://github.com/Bass22/data-acquisition-cloud-function)
+
+## Analytics Engineering with DBT
+
+I worked on this migration project from legacy SQL to DBT
+
+[legacy-sql-to-dbt](https://github.com/Bass22/dbt-path-to-certification)
 
 ## AWS Data Transformations
 
-This one is the general architecture of one of the project that I was in for more than 3.5 years. The general purpose was to develop data pipelines for luxury brands.
+This one is the general architecture of one of the project that I was in for more than 3.5 years. The general purpose was to develop data pipelines for luxury brands using Spark Scala, Python, AWS (Lambda, Athena, S3, EMR, EC2), Spark Streaming, Kafka, Airflow, ETL (Nifi), Cassandra, Solr, Github (Github Action).
+
+FIrst use case, when I just arrived on the project was to migrate from on-premise (Fujitsu servers) to AWS all our data pipelines. 
+This reduced significantly the cost of the project and it lasted about 6 months.
