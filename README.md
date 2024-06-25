@@ -7,7 +7,7 @@ Here I will describe some of my work as a Data Engineer.
 Feel free to reach me out :) 
 
 
-## GCP Data Ingestion
+## GCP Data Acquisition
 
 Goal of the project was to ingest multiple source data files coming from a Google Cloud Storage bucket using this kind of routing referential:
 |source_project|source_bucket|source_file_mask|destination_project|destination_bucket|destination_directory|
