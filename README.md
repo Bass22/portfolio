@@ -7,7 +7,7 @@ Here I will describe some of my work as a Data Engineer.
 Feel free to reach me out :)  
 <br/>
 
-## GCP Data Acquisition
+# GCP Data Acquisition
 
 Goal of the project was to ingest multiple source data files coming from a Google Cloud Storage bucket using this kind of routing referential:
 |source_project|source_bucket|source_file_mask|destination_project|destination_bucket|destination_directory|
@@ -36,11 +36,15 @@ Event-based Ingestion works really well but for some of our treatments, we wante
 we wanted to use services that will allow to group multiple source files and treat them together. The solution, I developed, consists of connecting Google Cloud 
 Storage to Pub/Sub by creating notifications in Pub/Sub whenever a new file is uploaded. And, use Cloud Scheduler as a cron scheduler to launch 
 a Cloud Function that will consume the messages (source files) in Pub/Sub regularly.
-Github project link: [Routing Cloud Function with Pub/Sub](https://github.com/Bass22/data-acquisition-cloud-function)  
+Github project link: [Routing Cloud Function with Pub/Sub](https://github.com/Bass22/data-acquisition-cloud-function)
+<br/>  
+
+<img width="1034" alt="Screenshot 2024-06-25 at 12 14 20" src="https://github.com/Bass22/portfolio/assets/29351163/cf086e32-1d5a-4345-bbd1-61e5dabf5543">
+
 
 <br/><br/>  
 
-## Analytics Engineering with DBT
+# Analytics Engineering with DBT
 
 I worked on this migration project from legacy SQL to DBT: [Legacy SQL to DBT](https://github.com/Bass22/dbt-path-to-certification). 
 <br/>  
@@ -49,7 +53,7 @@ I worked on this migration project from legacy SQL to DBT: [Legacy SQL to DBT](h
 
 <br/><br/>  
 
-## AWS Data Transformations  
+# AWS Data Transformations  
 
 This one is the general architecture of one of the project that I was in for more than 3.5 years. The general purpose was to develop data pipelines for luxury brands using Spark Scala, Python, AWS (Lambda, Athena, S3, EMR, EC2), Spark Streaming, Kafka, Airflow, ETL (Nifi), Cassandra, Solr, Github (Github Action).
 
