@@ -61,6 +61,6 @@ FIrst use case, when I just arrived on the project was to migrate from on-premis
 This reduced significantly the cost of the project and it lasted about 6 months.
 
 <br/>  
+<img width="1259" alt="Screenshot 2024-06-25 at 12 18 53" src="https://github.com/Bass22/portfolio/assets/29351163/271814c8-21dd-4e57-9047-bd19d810fabe">
 
-<img width="1220" alt="Screenshot 2024-06-25 at 11 36 23" src="https://github.com/Bass22/portfolio/assets/29351163/aa73af5a-7984-4d5e-adbd-e4a3b4f0747c">
 
