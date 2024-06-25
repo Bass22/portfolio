@@ -53,7 +53,7 @@ I worked on this migration project from legacy SQL to DBT: [Legacy SQL to DBT](h
 
 <br/><br/>  
 
-# AWS Data Transformations  
+# AWS Data Pipelines  
 
 This one is the general architecture of one of the project that I was in for more than 3.5 years. The general purpose was to develop data pipelines for luxury brands using Spark Scala, Python, AWS (Lambda, Athena, S3, EMR, EC2), Spark Streaming, Kafka, Airflow, ETL (Nifi), Cassandra, Solr, Github (Github Action).
 
